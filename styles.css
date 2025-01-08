@@ -58,7 +58,7 @@
   display: flex;
 
   align-items: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .size-select p {
   width: 70px;
@@ -78,7 +78,7 @@
 .color-select {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .color-select p {
   width: 75px;
@@ -114,7 +114,7 @@
 .quantity-select {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .quantity-select p {
   width: 75px;
@@ -126,4 +126,17 @@
   background: #eee;
   padding: 2px 2px 2px 15px;
   width: 50px;
+}
+form button {
+  background: black;
+  color: white;
+  font-size: 13px;
+  border-radius: 30px;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  margin-top: 30px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(85, 63, 240, 0.25);
 }
