@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: #a0b5b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product {
+  width: 90%;
+  max-width: 750px;
+  display: flex;
+}
+.gallery {
+  flex-basis: 47%;
+  transform: scale(1.08);
+}
+.gallery img {
+  width: 100%;
+  display: block;
+}
+.details {
+  flex-basis: 53%;
+  background: white;
+  box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  padding-left: 60px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #777;
+}
+.details h1 {
+  color: #333;
+  font-family: 35px;
+}
+.details h2 {
+  color: #555;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.details h3 {
+  color: #00d874;
+  margin-bottom: 20px;
+}
+.details form {
+  font-size: 15px;
+  font-weight: 400;
+}
+.size-select {
+  display: flex;
+
+  align-items: center;
+  margin-top: 50px;
+}
+.size-select p {
+  width: 70px;
+}
+.size-select input:checked + label span {
+  color: #00d874;
+  font-weight: 600;
+}
+.size-select input {
+  display: none;
+}
+.size-select span {
+  padding: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.color-select {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.color-select p {
+  width: 75px;
+}
+.color-select span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.color-1 {
+  background-color: lightblue;
+}
+.color-2 {
+  background-color: red;
+}
+.color-3 {
+  background-color: yellow;
+}
+.color-4 {
+  background-color: black;
+}
+.color-select input:checked + label span {
+  transform: scale(0.7);
+
+  box-shadow: 0 0 0 4px #fff, 0 0 0 6px #000;
+}
+.color-select input {
+  display: none;
+}
