@@ -21,6 +21,7 @@
 .gallery {
   flex-basis: 47%;
   transform: scale(1.08);
+  position: relative;
 }
 .gallery img {
   width: 100%;
@@ -139,4 +140,21 @@ form button {
   margin-top: 30px;
   cursor: pointer;
   box-shadow: 0 10px 10px rgba(85, 63, 240, 0.25);
+}
+.img-controls {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
+.btn {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgba(98, 118, 129, 1);
+  margin: 10px;
+  cursor: pointer;
+}
+.btn.active {
+  box-shadow: 0 0 0 4px #fff, 0 0 0 6px #000;
 }
