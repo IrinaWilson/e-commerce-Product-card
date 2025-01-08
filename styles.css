@@ -64,7 +64,7 @@
   width: 70px;
 }
 .size-select input:checked + label span {
-  color: #00d874;
+  color: black;
   font-weight: 600;
 }
 .size-select input {
@@ -110,4 +110,20 @@
 }
 .color-select input {
   display: none;
+}
+.quantity-select {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.quantity-select p {
+  width: 75px;
+}
+.quantity-select input {
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  background: #eee;
+  padding: 2px 2px 2px 15px;
+  width: 50px;
 }
